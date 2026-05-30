@@ -28,6 +28,7 @@ jobs:
           yt-dlp \
           --playlist-items 1 \
           --concurrent-fragments 8 \
+          --force-overwrites \
           -x \
           --audio-format mp3 \
           "https://www.nhk.or.jp/radio/ondemand/detail.html?p=PMMJ59J6N2_01" \
@@ -37,6 +38,7 @@ jobs:
           yt-dlp \
           --playlist-items 1 \
           --concurrent-fragments 8 \
+          --force-overwrites \
           -x \
           --audio-format mp3 \
           "https://www.nhk.or.jp/radio/ondemand/detail.html?p=368315KKP8_01" \
@@ -46,6 +48,7 @@ jobs:
           yt-dlp \
           --playlist-items 1 \
           --concurrent-fragments 8 \
+          --force-overwrites \
           -x \
           --audio-format mp3 \
           "https://www.nhk.or.jp/radio/ondemand/detail.html?p=77RQWQX1L6_01" \
